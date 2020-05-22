@@ -1,0 +1,59 @@
+<!--
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 9
+    Filename: paint.html
+    Description: A user interactive paint program.
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="html">
+    <head>
+        <meta charset="utf-8">
+        <title>CSC 337 Paint</title>
+        <link rel="stylesheet" href="paint.css">
+        <script type="text/javascript" src="paint.js"></script>
+    </head>
+    <body>
+        <h1>CSC 337 Paint</h1>
+        <div id="content">
+            <div id="workarea">
+                <canvas id="workAreCanvas" width="700" height="500"></canvas>
+            </div>
+            <div id="controls">
+                <div id="colorPicker">
+                    <canvas id="ColorPickerCanvas" width="100" height="100"></canvas>
+                </div>
+
+                <div id="penSize">
+                    pen size:
+                    <div id="penControl">
+                        <div id="penButton">
+                            <button type="button" id="plus">+</button>
+                            <button type="button" id="minus">-</button>
+                        </div>
+                        <div id="penArea">
+                            <canvas id="PenCanvas" width="50" height="50"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div id="modes">
+                    <div>
+                        <button type="button" id="pen">pen</button>
+                    </div>
+                    <div>
+                        <button type="button" id="circles">circles</button>
+                    </div>
+                    <div>
+                        <button type="button" id="squares">squares</button>
+                    </div>
+                    <div>
+                        <button type="button" id="lines">lines</button>
+                    </div>
+                    <div>
+                        <button type="button" id="clear">clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

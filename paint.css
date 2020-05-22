@@ -1,0 +1,62 @@
+/*
+    Author: Jessmer John Palanca
+    Section: CSC337 Web Programming SPRING2019, Homework 9
+    Filename: paint.css
+    Description: The css file for the paint.html
+*/
+
+body{
+    background-color:  #222222;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+button{
+    width: 80px;
+    margin: 5px;
+}
+
+#content{
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#workAreCanvas, #PenCanvas{
+    background-color: white;
+}
+
+#penControl{
+    display: flex;
+}
+
+#colorPicker, #penSize{
+    height: 100px;
+}
+
+#PenCanvas{
+    margin-left: 6px;
+}
+
+#modes, #colorPicker, #penSize{
+    width: 100px;
+    margin: 15px;
+}
+
+#penButton{
+    margin-top: 35px;;
+    margin-bottom: auto;
+}
+
+#plus, #minus{
+    margin: 0;
+    width: 22px;
+    float: left;
+}
